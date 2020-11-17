@@ -1,0 +1,18 @@
+"""
+g $$$$$$$$$$$$$$$$$$$$
+f $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+t $$$$$$$$$$
+o $$$$$$$$$$$$
+"""
+
+items = {
+  'google': 20,
+  'facebook': 42,
+  'twitter': 10,
+  'offline': 12
+}
+
+print('g ' + items['google']* '$')
+print('f ' + items['facebook']* '$')
+print('t ' + items['twitter']* '$')
+print('o ' + items['offline']* '$')
