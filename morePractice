@@ -1,0 +1,16 @@
+def string_accumulator(string):
+  counter = 1
+  char_list = []
+  final_chars = []
+
+
+
+  for char in string :
+    char_list.append(char * counter)
+    counter += 1
+  
+  for element in char_list:
+    final_chars.append(element.title())  
+  return "_".join([item.title() for item in char_list])
+  
+print(string_accumulator("abcd"))
